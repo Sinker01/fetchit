@@ -1,0 +1,8 @@
+configReload:
+  schedule: "*/5 * * * *"
+  configUrl: https://raw.githubusercontent.com/Sinker01/fetchit/main/deployed/config.yaml
+targetConfigs:
+- url: https://github.com/Sinker01/fetchit
+  branch: main
+podmanAutoUpdate:
+  root: true

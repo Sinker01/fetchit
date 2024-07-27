@@ -9,5 +9,4 @@ vendor
 _output
 fetchit
 !fetchit/
-config.yaml
 *.env
